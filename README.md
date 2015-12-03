@@ -1,10 +1,15 @@
 # Copilating and Running #
 
 To comile the libaray and compile and run test case please follow instructions:
+
 a) make clean
+
 b) make 
+
 c) g++ -std=c++11 basic.c -L. -lrvm -o basic
+
 d) ./basic
+
 Alternatively you can also use submitted "run.sh" for compiling the library and all the testcases.
 
 
