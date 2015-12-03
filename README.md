@@ -10,7 +10,7 @@ Alternatively you can also use submitted "run.sh" for compiling the library and 
 
 #Log File Responses:#
 
-## How you use logfiles to accomplish persistency plus transaction semantics?$##
+## How you use logfiles to accomplish persistency plus transaction semantics?##
 
 We have implemented teh redo logs as mentioned in the LRVM paper. There are two types of logs in the system. Undo logs and Redo logs. Undo logs are in memory and redo logs are persisted on the disk. 
 
